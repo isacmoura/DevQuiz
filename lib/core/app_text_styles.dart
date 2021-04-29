@@ -68,6 +68,7 @@ class AppTextStyles {
     fontSize: 20,
     fontWeight: FontWeight.normal,
   );
+
   static final TextStyle bodyLightGrey20 = GoogleFonts.notoSans(
     color: AppColors.lightGrey,
     fontSize: 20,
@@ -79,9 +80,26 @@ class AppTextStyles {
     fontSize: 20,
     fontWeight: FontWeight.normal,
   );
+
   static final TextStyle body11 = GoogleFonts.notoSans(
     color: AppColors.grey,
     fontSize: 11,
     fontWeight: FontWeight.normal,
+  );
+
+  static final TextStyle levelButtonFacil =
+      GoogleFonts.notoSans(color: AppColors.levelButtonTextFacil, fontSize: 13);
+
+  static final TextStyle levelButtonMedio =
+      GoogleFonts.notoSans(color: AppColors.levelButtonTextMedio, fontSize: 13);
+
+  static final TextStyle levelButtonDificil = GoogleFonts.notoSans(
+    color: AppColors.levelButtonTextDificil,
+    fontSize: 13,
+  );
+
+  static final TextStyle levelButtonPerito = GoogleFonts.notoSans(
+    color: AppColors.levelButtonTextPerito,
+    fontSize: 13,
   );
 }
